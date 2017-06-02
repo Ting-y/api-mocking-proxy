@@ -1,0 +1,22 @@
+[server]
+host = "localhost"
+port = 8088
+# These are the default values
+
+[proxy]
+timeout = 5000
+disable = false
+# Set to true to have requests not proxied out.
+
+[cache]
+dataRoot = "data" # Folder to store the cached responses.
+disable = false # Disable caching of responses (or reading of existing cache).
+touchFiles = false # Will touch or create (empty) the cache files even if disabled
+
+[mappings.spaces] #contentful
+host = "https://cdn.contentful.com/spaces"
+dir = "contentful"
+matchHeaders = false
+contentType = "application/json"
+delay = 200
+
