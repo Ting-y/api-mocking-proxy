@@ -18,3 +18,10 @@ host = "https://cdn.contentful.com"
 dir = "contentful"
 matchHeaders = false
 contentType = "application/json"
+
+
+[mappings.target] #target
+host = "https://dev-target.api.loyalty.com"
+dir = "target"
+matchHeaders = false
+contentType = "application/json"
