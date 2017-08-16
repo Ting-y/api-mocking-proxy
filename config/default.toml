@@ -25,3 +25,10 @@ host = "https://dev-target.api.loyalty.com"
 dir = "target"
 matchHeaders = false
 contentType = "application/json"
+
+
+[mappings.gateway] #target
+host = "https://dev.api.loyalty.com"
+dir = "gateway"
+matchHeaders = false
+contentType = "application/json"
